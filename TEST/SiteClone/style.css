@@ -84,6 +84,7 @@ header a:hover {
   padding: 70px 5%;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
 }
 
 .aboutme-img img {
@@ -95,7 +96,6 @@ header a:hover {
 .aboutme-content {
   height: 333px;
   width: 49%;
-  background-color: white;
 }
 
 .aboutme-content h2 {
@@ -124,10 +124,17 @@ header a:hover {
 
 /* スキル */
 .skill {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-around; */
+  margin: 0 auto;
   padding: 70px 5%;
+  margin: 0 auto;
+}
+
+.skill-title {
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .common-subtitle h2 {
@@ -142,21 +149,55 @@ header a:hover {
   border-spacing: 0;
 }
 
-.skill-content tr{
+.skill-content tr {
   border-bottom: solid 1px #eee;
 }
 
-.skill-content tr:hover{
+.skill-content tr:hover {
   background-color: rgba(182, 240, 255, 0.616);
 }
 
-.skill-content td, .skill-content th{
+.skill-content td,
+.skill-content th {
   text-align: center;
   width: 25%;
   padding: 15px 0;
 }
 
+td.skill-icon {
+  background-size: 25px;
+  background-position: left 70px center;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+}
 
+.html {
+  background-image: url(img/html-5.png);
+}
+
+.css {
+  background-image: url(img/css-3.png);
+}
+
+.javascript {
+  background-image: url(img/javascript.png);
+}
+
+.vue {
+  background-image: url(img/vue.png);
+}
+
+.firebase {
+  background-image: url(img/firebase.png);
+}
+
+.nuxt {
+  background-image: url(img/nuxt-icon.png);
+}
+
+.node {
+  background-image: url(img/nodejs.png);
+}
 
 /* 実績 */
 .works {
