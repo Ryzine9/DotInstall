@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ドットインストール</title>
+  </head>
+  <body>
+    <!-- <label for="name">名前</label>
+    <input type="text" id="name"> -->
+    <!-- <label>名前<input type="text" /></label> -->
+
+    <!-- <label for="color">好きな色</label> -->
+    <!-- <select id="color" size="4" multiple> -->
+    <!-- <select id="color">
+      <option>赤</option>
+      <option>青</option>
+      <option selected>黄</option>
+      <option>白</option>
+    </select> -->
+
+    <!-- <fieldset>
+      <legend>今回お使いのスマホ  </legend>
+      <label><input type="checkbox" />iPhone</label>
+      <label><input type="checkbox" checked />Android</label>
+      <label><input type="checkbox" />その他</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>一番好きなスマホ  </legend>
+      <label><input type="radio" name="phone"/>iPhone</label>
+      <label><input type="radio" name="phone"/>Android</label>
+      <label><input type="radio" name="phone"/>その他</label>
+    </fieldset> -->
+
+    <!-- <p><input type="color"></p>
+    <p><input type="date"></p>
+    <p><input type="number"></p>
+    <p><input type="range"></p> -->
+
+    <!-- <input type="button" value="OK">
+    <button>OK</button>
+
+    <input type="button" value="OK" disabled>
+    <button disabled>OK</button> -->
+
+    <header>
+      <h1>スマホアンケート</h1>
+    </header>
+    <form action="process.php" method="post">
+      <fieldset>
+        <legend>一番好きなスマホは?</legend>
+        <label><input type="radio" name="phone" />iPhone</label>
+        <label><input type="radio" name="phone" />Android</label>
+        <label><input type="radio" name="phone" />その他</label>
+      </fieldset>
+      <p><label for="type">機種を教えてください</label></p>
+      <input type="text" placeholder="iPhone6s" />
+      <p><label for="reason">選んだ理由を教えてください</label></p>
+      <textarea name="reason" id="reason"></textarea>
+      <p><button>追加</button></p>
+    </form>
+  </body>
+</html>
