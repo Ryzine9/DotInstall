@@ -1,13 +1,19 @@
-/* main > h2:nth-of-type(3){
-  background-color: pink;
-}
-main > h2:nth-of-type(even){
-  background-color: pink;
-} */
-main > h2:last-of-type {
-  background-color: pink;
+h1 {
+  color: red !important;
 }
 
-main > h2:first-of-type {
-  background-color: skyblue;
+h1#main.box {
+  color: yellow;
+}
+
+section > #main.title {
+  color: blue;
+}
+
+section#about > h1 {
+  color: pink;
+}
+
+#about > #main {
+  color: gray;
 }
