@@ -1,10 +1,18 @@
-h1::before,
-h2::before {
-  content: "- ";
+/* main > :nth-child(3n) {
+  background-color: pink;
+} */
+
+/* main > :nth-child(odd) {
+  background-color: pink;
+}
+main > :nth-child(even) {
+  background-color: skyblue;
+} */
+
+main > :first-child {
+  background-color: skyblue;
 }
 
-h1::after,
-h2::after {
-  /* content: " -"; */
-  content: attr(data-subtitle);
+main > :last-child {
+  background-color: skyblue;
 }
